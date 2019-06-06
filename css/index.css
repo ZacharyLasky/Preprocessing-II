@@ -265,3 +265,14 @@ header nav .navigation h2 {
   width: 30%;
   margin-bottom: 30px;
 }
+section img {
+  border-top: 1px dashed grey;
+  margin: 20px 0 0 210px;
+  width: 65%;
+}
+section h1 {
+  margin: 20px 0 0 210px;
+}
+section p {
+  margin: 20px 210px 0 210px;
+}
