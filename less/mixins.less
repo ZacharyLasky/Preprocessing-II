@@ -14,6 +14,10 @@
     width: 30%;
 }
 
-.border-mixin {
-    border: solid 1px red;
+.button-mixin(@size, @bg-color, @border-style, @radius, @font-color) {
+    font-size: @size;
+    background-color: @bg-color;
+    border: @border-style;
+    border-radius: @radius;
+    color: @font-color;
 }

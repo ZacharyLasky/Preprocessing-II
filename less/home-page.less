@@ -1,5 +1,7 @@
 .home {
 
+  
+
   .content-section {
     margin: 30px 0;
     display: flex;
@@ -11,12 +13,12 @@
     .text-content {
       width: 48%;
       padding-right: 1%;
-    }
+      }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
-
+      
       img {
         border-radius: 10px;
       }
@@ -55,7 +57,17 @@
 
     .destination {
       width: 30%;
-      margin-bottom: 30px;
+      margin-bottom: 50px;
+
+      .btn {
+        .button-mixin(2rem, #007c7b, 2px, 15%, white);
+        width: 90%;
+        height: 20%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+      }
     }
   }
 }// home
